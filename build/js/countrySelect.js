@@ -262,6 +262,7 @@
 		},
 		// Focus input and put the cursor at the end
 		_focus: function() {
+			/*
 			this.countryInput.focus();
 			var input = this.countryInput[0];
 			// works for Chrome, FF, Safari, IE9+
@@ -269,6 +270,7 @@
 				var len = this.countryInput.val().length;
 				input.setSelectionRange(len, len);
 			}
+			*/
 		},
 		// Show the dropdown
 		_showDropdown: function() {
